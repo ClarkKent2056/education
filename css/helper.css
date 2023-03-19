@@ -1,0 +1,35 @@
+/* display */
+.centerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* size */
+
+.top_menu {
+    height: 476px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('../img/global/bgDes.jpg') 0 0 / 100% auto no-repeat ;
+}
+/* w */
+.w100 {
+    width: 100%;
+}
+.max1232 {
+    max-width: 1232px;
+    width: 100%;
+}
