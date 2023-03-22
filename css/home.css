@@ -1,0 +1,17 @@
+.contheaderbg{
+    width: 100%;
+    height: 100vh;
+    max-height: 728px;
+   background-color: black;
+}
+.contshoolslevels {
+    width: 100%;
+}
+
+.level {
+    width: 25%;
+    height: auto;
+}
+.level img{
+    width: 100%;
+}
