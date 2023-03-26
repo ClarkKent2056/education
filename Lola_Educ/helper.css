@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  /* box-sizing: border-box; */
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-size: 48px;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin: 0;
+}
+p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: #79799b;
+}
+.globalLimitWidth {
+	width: 100%;
+	max-width: 1440px;		
+	margin: 0 auto;
+	
+	}
+	.width1232 {
+		width: 100%;
+		max-width: 1232px;
+		margin: 0 auto;
+	 }
+.redtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff0a54;
+}
