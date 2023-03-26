@@ -43,8 +43,9 @@
 }
 
 .insideaboutus {
-    width: 50%;
+    width: calc(50% - 10px);
     align-items: flex-start;
+    padding-left: 10px;
 }
 
 .insideaboutus h2 {
@@ -100,6 +101,34 @@
 
 }
 
+.contourincrteach {
+    background-color: aqua;
+}
+
+.profils {
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.profil {
+    background-color: green;
+    width: calc(25% - 12px);
+}
+.profilhover {
+    background-color: violet;
+    opacity: 1;
+    display: flex;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
 
 
 .photoabotus {
@@ -134,15 +163,15 @@
 }
 
 .instagramstore::-webkit-scrollbar {
-    /* width: 8px; */
-    /* height: 6px; */
+    width: 8px;
+    height: 6px;
 
 }
 
 .instagramstore::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    width: 30px;
-    background-color: #222F5D;
+    width: 10px;
+    background-color: rgba(255, 10, 84, 1);
 }
 
 .instagramstore img {
