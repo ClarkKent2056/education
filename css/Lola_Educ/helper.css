@@ -1,4 +1,32 @@
-/* width */
+/* display */
+.centerColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexcenter{
+	display: flex;
+	align-items: center;
+}
+/* size */
+
+.top_menu {
+	height: 476px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: url('../img/global/bgDes.jpg') 0 0 / 100% auto no-repeat ;
+}
+
+
+
+
 .globalLimitWidth {
 	width: 100%;
 	max-width: 1440px;
@@ -7,6 +35,7 @@
  .max1232 {
 	 max-width: 1232px;
 	 width: 100%;
+	 margin: 0 auto;
  }
  /* w */
  .w100 {
@@ -27,12 +56,13 @@
   font-weight: 700;
   color: #222f5d;
 }
-/* chapter darkblue text */
+/* chapter darkblue text 48px */
 .chaptertext {
   font-size: 48px;
   font-family: "Poppins";
   font-weight: 700;
   color: #222f5d;
+  line-height: 64px;
 }
 /* after chapter text grey*/
 .greytext {
@@ -40,6 +70,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #79799b;
+  line-height: 28px;
 }
 /* after chapter text dakblue */
 .darktext {
@@ -47,6 +78,14 @@
   font-weight: 400;
   font-size: 16px;
   color: #222f5d;
+}
+
+.redtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff0a54;
 }
 
 .redbtn {
@@ -70,11 +109,5 @@
   color: #ff0a54;
 }
 
-.redtext {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  color: #ff0a54;
-}
+
 
