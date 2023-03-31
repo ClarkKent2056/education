@@ -130,10 +130,6 @@
   overflow-x: scroll;
 }
 
-.instagramstore::-webkit-scrollbar {
-  /* width: 8px; */
-  /* height: 6px; */
-}
 
 .instagramstore::-webkit-scrollbar-thumb {
   border-radius: 8px;
