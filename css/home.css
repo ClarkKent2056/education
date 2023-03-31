@@ -1,3 +1,4 @@
+
 .contheaderbg {
     width: 100%;
     height: 100vh;
@@ -207,3 +208,181 @@
     }
 
 }
+
+/* :Lola */
+
+.afterheader {
+	/*  background: rgba(0, 0, 0, 0.4); */
+	color: #fff;
+	width: 100%;
+	height: calc(100vw * 0.5);
+	max-height: 728px;
+	background-image: url(./Lola_Educ/img/bg.jpg);
+	display: flex;
+	align-items: center;
+ }
+
+ .conthead {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: flex-start;
+	height: 100%;
+	padding-top: 10%;
+ }
+ .marginbot24 {
+	margin-bottom: 24px;
+ }
+ .max {
+	width: 100%;
+ }
+ .titlehead {
+	max-width: 756px;
+ }
+ .introhead {
+	width: 49%;
+	max-width: 609px;
+	color: #fff;
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+ }
+ 
+ .cont2L {
+	overflow-x: hidden;
+	scrollbar-width: none;
+ }
+ ::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+ }
+ 
+ .pic1 {
+	max-width: 576px;
+	max-height: 697px;
+ }
+ .contadv {
+	position: relative;
+	margin-bottom: 36px !important;
+	margin-top: 10%;
+ }
+ .containeradv {
+	width: 728px;
+	padding: 40px;
+	position: absolute;
+	bottom: 0;
+	right: -75px;
+	background-color: #fff;
+ }
+ .ornam {
+	position: absolute;
+	z-index: -1;
+	top: 54px;
+	right: 39%;
+ }
+ .advbot {
+	display: flex;
+	align-items: center;
+ }
+ .arrow {
+	margin-left: 9px;
+ }
+ .pText {
+	max-width: 507px;
+ }
+ .filmpics {
+	display: flex;
+	justify-content: space-between;
+ }
+ .widthpic {
+	width: 608px;
+	height: 390px;
+ }
+ .extratext {
+	max-width: 615px;
+ }
+ .extracont {
+	min-height: 340px;
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 18px;
+	justify-content: space-between;
+ }
+ .extraright {
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
+ }
+ .svgarrow {
+	border-radius: 8px;
+	background-color: #ff0a54;
+	padding: 13px 18px;
+	transition: all 0.3s;
+ }
+ .svgcont:hover .svgarrow {
+	background: #ffd6e3;
+ }
+ .svgcont:hover .path {
+	fill: red;
+ }
+ 
+ /* carousel */
+ 
+ .wrapper__carousel {
+	width: 100%;
+	/*  width: 115%;
+	transform: translateX(-104px); */
+	overflow-x: auto;
+ }
+ 
+ .carousel {
+	width: 145%;
+	/*   background-color: beige; */
+	display: flex;
+	justify-content: center;
+	column-gap: 16px;
+	margin: 30px 0;
+ }
+ .gallerycell {
+	/*  width: 400px;
+	height: 670px; */
+	width: 19%;
+	height: auto;
+	max-height: 670px;
+	position: relative;
+	overflow: hidden;
+ }
+ 
+ .gallerypic {
+	  width: 100%
+
+ }
+ .gallerytext {
+	position: absolute;
+	bottom: 40px;
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+ }
+
+
+
+ .commonpart {
+	height: 1200px;
+	background-color: darkkhaki;
+	width: 100%;
+ }
+ .meetwith {
+	max-width: 608px;
+	justify-content: space-between;
+ }
+ .meetwith p {
+	text-align: center;
+ }
+ .bgteach {
+	width: 24%;
+	height: calc(24% * );
+ }

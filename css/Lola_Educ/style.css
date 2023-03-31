@@ -246,3 +246,8 @@
 .allRightsReserved {
   color: #ffffff;
 }
+@media (max-width: 750px) {
+	.ql {
+		display: none;
+	}
+}
