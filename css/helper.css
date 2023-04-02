@@ -23,9 +23,34 @@
     align-items: center;
     background: url('../img/global/bgDes.jpg') 0 0 / 100% auto no-repeat ;
 }
-/* w */
-.w100 {
-    width: 100%;
+
+
+
+/* ----------- */
+
+
+/* width */
+.globalLimitWidth {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+ }
+ .max1232 {
+	 max-width: 1232px;
+	 width: 100%;
+	 margin: 0 10px;
+ }
+ /* w */
+ .w100 {
+	 width: 100%;
+ }
+
+/* main title text white */
+.maintitle {
+  font-size: 64px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #fff;
 }
 .max1232 {
     max-width: 1252px;

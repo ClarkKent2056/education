@@ -1,0 +1,249 @@
+.afterheader {
+  /*  background: rgba(0, 0, 0, 0.4); */
+  color: #fff;
+  width: 100%;
+  height: calc(100vw * 0.5);
+  max-height: 728px;
+  background-image: url(./img/bg.jpg);
+}
+
+.conthead {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.titlehead {
+  max-width: 756px;
+  margin: 0;
+}
+.introhead {
+  width: 49%;
+  max-width: 609px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.cont2L {
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.pic1 {
+  max-width: 576px;
+  max-height: 697px;
+}
+.contadv {
+  position: relative;
+  margin-bottom: 36px !important;
+}
+.containeradv {
+  width: 728px;
+  padding: 40px;
+  position: absolute;
+  bottom: 0;
+  right: -75px;
+  background-color: #fff;
+}
+.ornam {
+  position: absolute;
+  z-index: -1;
+  top: 54px;
+  right: 39%;
+}
+.advbot {
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  margin-left: 9px;
+}
+.pText {
+  max-width: 507px;
+}
+.filmpics {
+  display: flex;
+  justify-content: space-between;
+}
+.widthpic {
+  width: 608px;
+  height: 390px;
+}
+.extratext {
+  max-width: 615px;
+}
+.extracont {
+  min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 18px;
+  justify-content: space-between;
+}
+.extraright {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.svgarrow {
+  border-radius: 8px;
+  background-color: #ff0a54;
+  padding: 13px 18px;
+  transition: all 0.3s;
+}
+.svgcont:hover .svgarrow {
+  background: #ffd6e3;
+}
+.svgcont:hover .path {
+  fill: red;
+}
+
+/* carousel */
+
+.wrapper__carousel {
+  width: 100%;
+  /*  width: 115%;
+  transform: translateX(-104px); */
+  overflow-x: auto;
+}
+
+.carousel {
+  width: 145%;
+  /*   background-color: beige; */
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin: 30px 0;
+}
+.gallerycell {
+  /*  width: 400px;
+  height: 670px; */
+  width: 19%;
+  height: 46vw;
+  max-height: 670px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallerytext {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  color: #fff;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* footer */
+.contfoot {
+  background: #a30031;
+  height: 434px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footertext {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  max-width: 400px;
+  margin: 0 0 8px 0;
+}
+.linkcontact {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.footlist {
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footlist p {
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 32px; */
+  color: #ffffff;
+}
+.contactdiv {
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.columnfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.topfoot {
+  display: flex;
+  max-width: 1030px;
+  max-height: 200px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+.contInfo {
+  display: flex;
+  align-items: center;
+}
+.contInfo svg {
+  margin-right: 21px;
+}
+.footmargin {
+  margin-bottom: 24px;
+}
+.bottomfoot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.logobottom {
+  display: flex;
+  justify-content: space-between;
+  width: 152px;
+}
+.borderlogo {
+  display: flex;
+  background-color: #fff;
+  border-radius: 100%;
+  color: #ff0a54;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+}
+.allRightsReserved {
+  color: #ffffff;
+}
+@media (max-width: 750px) {
+	.ql {
+		display: none;
+	}
+}

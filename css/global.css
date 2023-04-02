@@ -49,5 +49,110 @@ header .active {
         flex-direction: column;
         justify-content: space-around;
     }
-    
+    .ql {
+	display: none;
+	 }
 }
+
+
+/* footer */
+.contfoot {
+	background: #a30031;
+	height: 434px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0 10px;
+ }
+ 
+ .footertext {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #fff;
+	max-width: 400px;
+	margin: 0 0 8px 0;
+ }
+ .linkcontact {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 24px;
+ }
+ .footlist {
+	height: 152px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+ }
+ .footlist a {
+	margin: 0;
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-size: 16px;
+	/* line-height: 32px; */
+	color: #ffffff;
+	text-decoration: none;
+ }
+ .contactdiv {
+	height: 124px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+ }
+ 
+ .columnfooter {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+ }
+ .topfoot {
+	display: flex;
+	max-width: 1030px;
+	max-height: 200px;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 50px;
+ }
+ .contInfo {
+	display: flex;
+	align-items: center;
+ }
+ .contInfo svg {
+	margin-right: 21px;
+ }
+ .footmargin {
+	margin-bottom: 24px;
+ }
+ .bottomfoot {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	align-items: center;
+ }
+ .logobottom {
+	display: flex;
+	justify-content: space-between;
+	width: 152px;
+ }
+ .borderlogo {
+	display: flex;
+	background-color: #fff;
+	border-radius: 100%;
+	color: #ff0a54;
+	height: 40px;
+	width: 40px;
+	align-items: center;
+	justify-content: center;
+	font-family: "Roboto";
+ }
+ .allRightsReserved {
+	color: #ffffff;
+ }
+ 
