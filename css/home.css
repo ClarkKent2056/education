@@ -1,9 +1,3 @@
-.contheaderbg {
-  width: 100%;
-  height: 100vh;
-  max-height: 728px;
-  background-color: black;
-}
 
 .contshoolslevels {
   width: 100%;
@@ -45,8 +39,9 @@
 }
 
 .insideaboutus {
-  width: 50%;
+  width: calc(50% - 10px);
   align-items: flex-start;
+  padding-left: 10px;
 }
 
 .insideaboutus h2 {
@@ -81,24 +76,25 @@
 }
 
 .insideaboutus button {
-  width: 192px;
-  height: 64px;
   background: #ff0a54;
   border-radius: 8px;
-  margin: 4px;
-  transition: all 0.3s;
-  font-family: "Open Sans";
   font-weight: 600;
   font-size: 16px;
-  color: #ffffff;
+  width: 192px;
+  height: 64px;
+  border: none;
+  color: #fff;
+  margin: 27px 0 0 0;
+  transition: all 0.3s;
   cursor: pointer;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .insideaboutus button:hover {
-  margin: 0;
-  width: 200px;
-  height: 72px;
-  font-size: 18px;
+  background: #ffd6e3;
+  color: #ff0a54;
 }
 
 .photoabotus {
@@ -123,6 +119,7 @@
 .continstagramstore {
   position: relative;
   height: 230px;
+  margin-bottom: ;
 }
 
 .instagramstore {
@@ -140,6 +137,7 @@
 .instagramstore img {
   width: 20%;
   min-width: 220px;
+  pointer-events: none;
 }
 
 .inststoreBG {
@@ -170,6 +168,86 @@
   color: #79799b;
   max-width: 608px;
 }
+/*  */
+.teachers {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 100px;
+}
+
+.mainbox1 { 
+  width: 23.2vw;
+  height: calc(23.2vw * 1.24);
+  /* background-color: #ff0a54; */
+  max-width: 300px;
+  max-height: 370px;
+  background-image: url("../img/home/");
+  position: relative;
+  align-items: flex-end;
+  border-radius: 3%;
+  margin-bottom: 16px;
+  z-index: 10;
+}
+.profilbackground {
+  width: 23.3vw;
+  height: calc(23.3vw * 1.24); 
+  background-size: 24vw calc(24vw * 1.24);
+  /* background-color: #ff0a54; */
+  max-width: 300px;
+  max-height: 370px;
+  align-items: center;
+  justify-content: flex-end;
+  transition: all 0.3s;
+  border-radius: 3%;
+  
+}
+.teacher1 {
+  background-image: url("../img/home/teachers/teacher1.jpg");
+}
+.teacher2 {
+  background-image: url("../img/home/teachers/teacher2.jpg");
+}
+.teacher3 {
+  background-image: url("../img/home/teachers/teacher3.jpg");
+}
+.teacher4 {
+  background-image: url("../img/home/teachers/teacher4.jpg");
+}
+.profillink {
+  background-color: #ff0a54;
+  width: 100%;
+  height: 0;
+  max-width: 300px;
+  max-height: 370px;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  align-items: last baseline;
+  transition: all 0.3s;
+  border-radius: 3%;
+}
+.profillink div {
+  margin-bottom: 20%;
+}
+ .mainbox1:hover .profillink{
+  opacity: 1;
+  height: 100%;
+}
+.mainbox1:hover .profilbackground {
+  background-size: 23.3vh 0;
+  height: 0;
+}
+.teachersornament{
+  position: absolute;
+  z-index: 9;
+  top: -18%;
+  left: -7%;
+
+}
 
 @media (max-width: 750px) {
   .level {
@@ -193,6 +271,14 @@
   }
   .continstagramstore {
     margin-bottom: 20px;
+  }
+  .filmpics {
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+  }
+  .filmpics img {
+    width: 100%;
   }
 }
 
@@ -282,8 +368,9 @@
   justify-content: space-between;
 }
 .widthpic {
-  width: 608px;
-  height: 390px;
+  /* width: 608px;
+  height: 390px; */
+  width: 49%;
 }
 .extratext {
   max-width: 615px;
@@ -319,7 +406,7 @@
   width: 100%;
   /*  width: 115%;
 	transform: translateX(-104px); */
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .carousel {
@@ -373,38 +460,6 @@ h3 {
   margin-bottom: 16px;
 }
 
-.mainbox {
-  display: flex;
-  justify-content: start;
-  width: 300px;
-  height: 370px;
-  box-sizing: border-box;
-}
-.teachers {
-  /*  width: 100%;
-  height: 370px; */
-  display: flex;
-  justify-content: space-between;
-  column-gap: 16px;
-}
-.bgteach {
-  width: 100%;
-  height: 100%;
-  background-image: url(./Lola_Educ/img/malik.jpg);
-  background-size: auto 100%;
-  position: relative;
-  border-radius: 8px;
-}
-.name {
-  position: absolute;
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #ffffff;
-  bottom: 16%;
-  padding: 0 10px;
-}
 .name1 {
   font-family: "Poppins";
   font-weight: 700;
@@ -430,18 +485,4 @@ h3 {
   line-height: 24px;
   color: #ffffff;
   padding: 0 10px 10% 10px;
-}
-.shutter {
-  position: absolute;
-  width: 300px;
-  height: 0;
-  background: #ff0a54;
-  opacity: 0;
-  border-radius: 8px;
-  transition: all 1.3s;
-}
-.mainbox:hover .shutter {
-  height: 370px;
-  width: 300px;
-  opacity: 1;
 }
