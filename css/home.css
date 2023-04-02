@@ -45,9 +45,9 @@
 }
 
 .insideaboutus {
-    width: calc(50% - 10px);
+    width: calc(50% - 20px);
     align-items: flex-start;
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 .insideaboutus h2 {
@@ -135,7 +135,7 @@
 
 .instagramstore::-webkit-scrollbar {
     /* width: 8px; */
-    /* height: 6px; */
+    height: 6px;
 
 }
 
@@ -247,10 +247,11 @@
   overflow-x: hidden;
   scrollbar-width: none;
 }
-::-webkit-scrollbar {
+/*  */
+/* ::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
+} */
 
 .pic1 {
   max-width: 576px;
@@ -292,6 +293,7 @@
 .widthpic {
   width: 608px;
   height: 390px;
+  /* width: 48%; */
 }
 .extratext {
   max-width: 615px;
@@ -327,7 +329,7 @@
   width: 100%;
   /*  width: 115%;
 	transform: translateX(-104px); */
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 
 .carousel {
