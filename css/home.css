@@ -60,6 +60,7 @@
   font-feature-settings: "pnum"on, "lnum"on;
   color: #222f5d;
   margin-bottom: 12px;
+  
 }
 
 .insideaboutus p {
@@ -178,16 +179,17 @@
 
 .mainbox1 {
   width: 23.96vw;
-  height: calc(23.2vw * 1.24);
+  height: calc(23.96vw * 1.24);
   min-width: 232px;
   min-height: 288px;
   max-width: 300px;
   max-height: 370px;
   position: relative;
-  align-items: flex-end;
   border-radius: 3%;
   margin-bottom: 16px;
+  align-items: flex-end;
   z-index: 10;
+  
 }
 
 .profilbackground {
@@ -204,6 +206,16 @@
   transition: all 0.5s;
   border-radius: 3%;
 
+}
+.mainbox1:hover .profilbackground {
+  width: 23.96vw;
+  height: 0;
+  background-size: 100% calc(23.96vw * 1.24);
+  min-height: none;
+  background-repeat: no-repeat;
+  max-width: 300px;
+  
+  
 }
 
 
@@ -312,17 +324,20 @@
   height: calc(23.96vw * 1.24);
 }
 
-.mainbox1:hover .profilbackground {
-  background-size: 23.96vh 0;
-  height: 0;
-}
+
 
 .teachersornament {
   position: absolute;
-  z-index: 9;
-  top: -18%;
+  z-index: 3;
+  /* top: 20%; */
+  top: 0;
   left: -7%;
+  /* place */
 
+}
+.Zindex {
+  position: relative;
+  z-index: 10;
 }
 
 @media (max-width: 750px) {
