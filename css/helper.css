@@ -1,3 +1,13 @@
+:root {
+  --main-bg-color : #cb2727; /* bg for body */
+  --font-size-big : 64px;
+  --font-size-big-phone : 44px;
+
+
+}
+body {
+  /* background-color: var(--main-bg-color ) !important; */
+}
 /* display */
 .centerColumn {
     display: flex;
@@ -47,14 +57,20 @@
 
 /* main title text white */
 .maintitle {
-  font-size: 64px;
+  font-size: var(--font-size-big);
   font-family: "Poppins";
   font-weight: 700;
   color: #fff;
 }
+@media screen  and (max-width : 1600px){
+  .maintitle {
+    font-size: var(--font-size-big-phone);
+
+}
+}
 /* huge chapter text 64px*/
 .hugetext {
-  font-size: 64px;
+  font-size: var(--font-size-big);
   font-family: "Poppins";
   font-weight: 700;
   color: #222f5d;
