@@ -179,6 +179,8 @@
 .mainbox1 {
   width: 23.96vw;
   height: calc(23.2vw * 1.24);
+  min-width: 232px;
+  min-height: 288px;
   max-width: 300px;
   max-height: 370px;
   position: relative;
@@ -191,7 +193,10 @@
 .profilbackground {
   width: 23.96vw;
   height: calc(23.96vw * 1.24);
-  background-size: 24vw calc(24vw * 1.24);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-width: 232px;
+  min-height: 288px;
   max-width: 300px;
   max-height: 370px;
   align-items: center;
@@ -222,6 +227,7 @@
   background-color: #ff0a54;
   width: 23.96vw;
   height: 0;
+  min-width: 232px;
   max-width: 300px;
   max-height: 370px;
   justify-content: center;
@@ -302,6 +308,7 @@
 
 .mainbox1:hover .profillink {
   opacity: 1;
+  min-height: 288px;
   height: calc(23.96vw * 1.24);
 }
 
