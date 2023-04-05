@@ -16,13 +16,7 @@
 }
 /* size */
 
-.top_menu {
-    height: 476px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background: url('../img/global/bgDes.jpg') 0 0 / 100% auto no-repeat ;
-}
+
 
 
 
@@ -36,7 +30,7 @@
  }
  .max1232 {
 	 max-width: 1252px;
-	 width: 100%;
+	 width: 98%;
 	 /* padding: 0 20px; */
  }
  /* w */
