@@ -1,0 +1,103 @@
+/* cont HeadBg */
+.top_menu {
+    /* height: calc(100vw * 0.33);
+    width: 100%; */
+    background-image: url(../img/classes/classesBG.jpg);
+    /* background-size: 100% 100%;
+    max-height: 476px;
+    background-repeat: no-repeat; */
+}
+
+
+/* schegule block */
+.contSchedule {
+    align-items: flex-start;
+}
+
+.contSchedule h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+    margin: 120px 0 40px 0;
+}
+.tabelschedul {
+    margin-bottom: 120px;
+}
+.ScheduleHour {
+    width: 42%;
+}
+
+.ScheduleInf {
+    width: 58%;
+}
+
+.hourSchedule {
+    width: 100%;
+    height: 106px;
+    justify-content: flex-start;
+    padding-left: 17%;
+}
+
+.infoschedule {
+    height: 106px;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.blueBG {
+    background-color: rgba(34, 47, 93, 1);
+}
+
+.grayBgSchg {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.blueBG h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #FFFFFF;
+}
+
+.grayBgSchg h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+    .ScheduleHour {
+        width: 32%;
+    }
+    
+    .ScheduleInf {
+        width: 68%;
+    }
+    .contSchedule h3{
+        margin: 8vw 0 4vw 0;
+        line-height: 48px;
+    }
+    .tabelschedul {
+        margin-bottom: 8vw;
+    }
+}
