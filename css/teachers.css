@@ -88,7 +88,7 @@
         margin: 40px 0;
     }
 }
-@media (max-width: 950px){
+@media (max-width: 750px){
     .blockAbout h3 {
         font-size: 38px;
       
