@@ -2,15 +2,11 @@
     background-image: url(../img/teachers/topMenuBG.png);
 }
 
-.aboutTeacherBlock {}
-
 .aboutTeacher {
     margin: 80px 0;
     justify-content: space-between;
     /* flex-wrap: wrap; */
 }
-
-
 .blockImg img {
     width: 100%;
     min-width: 275px;
@@ -24,9 +20,33 @@
     height: calc(100vw * 0.54);
     max-height: 540px;
     padding: 0 10px;
-    /* gap: 10px; */
 }
 
+
+.blockAbout h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+  
+}
+
+.blockAbout h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #79799B;
+   
+ 
+}
+.blockAbout p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222F5D;
+}
 .linkSocialMedia {
     width: 152px;
     justify-content: space-between;
@@ -52,32 +72,6 @@
 .lineAbT {
     background-color: rgba(225, 225, 225, 1);
     height: 2px;
-}
-
-.blockAbout h3 {
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 48px;
-    font-feature-settings: 'pnum'on, 'lnum'on;
-    color: #222F5D;
-  
-}
-
-.blockAbout h4 {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 24px;
-    color: #79799B;
-   
- 
-}
-
-.blockAbout p {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #222F5D;
 }
 @media (max-width: 950px) {
     .aboutTeacher{
