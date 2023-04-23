@@ -36,7 +36,6 @@ header .active {
 .top_menu {
 	height: calc(100vw * 0.33);
 	width: 100%;
-	/* background-image: url(../img/classes/classesBG.jpg); */
 	background-size: 100% 100%;
 	max-height: 476px;
 	background-repeat: no-repeat;
@@ -50,8 +49,11 @@ header .active {
 	font-family: 'Poppins';
 	font-weight: 700;
 	font-size: 64px;
-	line-height: 88px;
+	line-height: 64px;
 	color: #FFFFFF;
+	background-color:rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	
 }
 
 
