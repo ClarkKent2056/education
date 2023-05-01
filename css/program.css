@@ -1,5 +1,163 @@
-.top_menu{
+.top_menu {
     background-image: url(../img/program/topMenuBG.jpg);
-}.c_colum_center .video {
-    height: 400px;
 }
+
+.video_block video {
+    width: 100%;
+}
+
+.video_block h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+    margin: 88px 0 48px 0;
+
+}
+
+.video_block p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #79799B;
+    margin-bottom: 40px;
+}
+
+.contentblock {
+    margin: 80px 0;
+}
+
+.insideContBlock {
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.imgBlock {
+    width: calc(50% - 10px);
+    padding-right: 10px;
+    justify-content: flex-start;
+}
+.imgBlockReverse {
+    width: calc(50% - 10px);
+    padding-left: 10px;
+    justify-content: flex-end;
+}
+
+
+.textBlock {
+    width: 50%;
+    max-width: 598px;
+    height: calc(100vw * 0.48);
+    max-height: 598px;
+   justify-content: space-around;
+    
+}
+.imgBlock img {
+    width: 98%;
+    max-width: 608px;
+}
+.imgBlockReverse img {
+    width: 98%;
+    max-width: 608px;
+
+}
+.textBlock h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 78px;
+    color: #222F5D;
+}
+
+
+.textBlockP {
+    gap: 20px;
+}
+
+.textBlockP p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #79799B;
+
+}
+
+@media (max-width: 1050px) {
+    .textBlock {
+        width: 50%;
+        max-width: 598px;
+        height: auto;
+        max-height: none;
+       justify-content: space-around;
+        
+    }
+
+    .contentblock {
+        margin: 40px 0;
+    }
+    
+    .insideContBlock {
+        justify-content: space-between;
+        margin: 40px 0;
+    }
+    
+
+    .textBlockP {
+        gap: 10px;
+    }
+    .textBlock h2 {
+    font-size: 48px;
+    line-height: 58px;
+    }
+    .textBlockP p {
+        font-size: 16px;
+        line-height: 20px;
+    
+    }
+    
+}
+@media (max-width: 750px){
+    .contentblock {
+        margin: 30px 0;
+    }
+    
+    .insideContBlock {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 30px 0;
+    }
+    
+    .imgBlock {
+        width: 100%;
+        justify-content: center;
+    }
+    .imgBlockReverse {
+        width: 100%;
+        justify-content: center;
+    }
+    .textBlock h2 {
+        margin: 20px 0;
+        font-size: 38px;
+        line-height: 58px;
+        }
+        .textBlockP p {
+            font-size: 12px;
+            line-height: 18px;
+        
+        }
+    
+    .textBlock {
+        width: 100%;
+       justify-content: space-around;
+        
+    }
+}
+
+
