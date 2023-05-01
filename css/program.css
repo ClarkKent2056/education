@@ -1,3 +1,5 @@
-.c_colum_center .video {
+.top_menu{
+    background-image: url(../img/program/topMenuBG.jpg);
+}.c_colum_center .video {
     height: 400px;
 }

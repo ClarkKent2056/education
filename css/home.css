@@ -171,7 +171,7 @@
 .teachers {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 16px;
+  justify-content: space-between;
   position: relative;
   z-index: 10;
   margin-bottom: 100px;
@@ -331,7 +331,7 @@
   z-index: 3;
   /* top: 20%; */
   top: 240px;
-  left: 2%;
+  left: -3%;
   /* place */
 
 }
