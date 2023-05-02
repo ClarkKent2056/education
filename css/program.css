@@ -141,6 +141,7 @@
     .imgBlockReverse {
         width: 100%;
         justify-content: center;
+        padding-left: none;
     }
     .textBlock h2 {
         margin: 20px 0;
