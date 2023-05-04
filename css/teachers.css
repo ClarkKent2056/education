@@ -95,7 +95,7 @@
 }
 @media (max-width: 750px){
     .blockAbout h3 {
-        font-size: 38px;
+        font-size: 28px;
       
     }
     
@@ -109,5 +109,9 @@
     .blockAbout p {
         font-size: 14px;
         line-height: 18px;
+        
+    }
+    .blockAbout p:nth-of-type(2){
+        margin-bottom: 16px;
     }
 }
