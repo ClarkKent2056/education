@@ -42,6 +42,7 @@
     padding-right: 10px;
     justify-content: flex-start;
 }
+
 .imgBlockReverse {
     width: calc(50% - 10px);
     padding-left: 10px;
@@ -54,18 +55,21 @@
     max-width: 598px;
     height: calc(100vw * 0.48);
     max-height: 598px;
-   justify-content: space-around;
-    
+    justify-content: space-around;
+
 }
+
 .imgBlock img {
     width: 98%;
     max-width: 608px;
 }
+
 .imgBlockReverse img {
     width: 98%;
     max-width: 608px;
 
 }
+
 .textBlock h2 {
     font-family: 'Poppins';
     font-weight: 700;
@@ -88,77 +92,154 @@
 
 }
 
+.blockTextInsideImg {
+    position: relative;
+    justify-content: flex-start;
+}
+.blockTextInsideImg img{
+   width: 64%;
+   min-width: 600px;
+}
+
+.textContainer {
+    position: absolute;
+    align-items: flex-start;
+    right: 0;
+    background-color: white;
+    padding: 48px 50px;
+    width: 52%;
+    max-width: 695px;
+
+}
+
+.textContainer h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+    margin: 0 0 40px 0;
+}
+
+.textContainer p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #79799B;
+}
+.textContainer p:nth-of-type(1){
+    margin-bottom: 24px;
+}
+
 @media (max-width: 1050px) {
     .textBlock {
         width: 50%;
         max-width: 598px;
         height: auto;
         max-height: none;
-       justify-content: space-around;
-        
+        justify-content: space-around;
+
     }
 
     .contentblock {
         margin: 40px 0;
     }
-    
+
     .insideContBlock {
         justify-content: space-between;
         margin: 40px 0;
     }
-    
+
 
     .textBlockP {
         gap: 10px;
     }
+
     .textBlock h2 {
-    font-size: 48px;
-    line-height: 58px;
+        font-size: 48px;
+        line-height: 58px;
     }
+
     .textBlockP p {
         font-size: 16px;
         line-height: 20px;
+
+    }
+    .textContainer {
+        padding: 38px 40px;
     
     }
+    .textContainer p:nth-of-type(1){
+        margin-bottom: 18px;
+    }
+    .textContainer h2 {
+        font-size: 46px;
+        line-height: 60px;
+        margin: 0 0 28px 0;
+    }
     
+
 }
-@media (max-width: 750px){
+
+@media (max-width: 750px) {
     .contentblock {
         margin: 30px 0;
     }
-    
+
     .insideContBlock {
         justify-content: center;
         flex-wrap: wrap;
         gap: 16px;
         margin: 30px 0;
     }
-    
+
     .imgBlock {
         width: 100%;
         justify-content: center;
+        padding-right: none;
     }
+
     .imgBlockReverse {
         width: 100%;
         justify-content: center;
         padding-left: none;
     }
+
     .textBlock h2 {
         margin: 20px 0;
         font-size: 38px;
         line-height: 58px;
-        }
-        .textBlockP p {
-            font-size: 12px;
-            line-height: 18px;
-        
-        }
-    
+    }
+
+    .textBlockP p {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+
     .textBlock {
         width: 100%;
-       justify-content: space-around;
-        
+        justify-content: space-around;
+
+    }
+    .blockTextInsideImg {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blockTextInsideImg img{
+        min-width: 260px;
+        width: 98%;
+    }
+    .textContainer { 
+        position: relative;
+        align-items: center;
+        padding: 24px 20px;
+        width: calc(100% - 40px);
+    }
+    .textContainer h2 {
+        margin-bottom: 24px;
     }
 }
-
-
