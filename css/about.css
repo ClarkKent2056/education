@@ -4,7 +4,6 @@
 
 .insideContBlock {
     justify-content: space-between;
-    margin: 80px 0;
 }
 
 .imgBlock {
@@ -19,14 +18,34 @@
     justify-content: flex-end;
 }
 
+.imgBlockReverse img {
+    width: 98%;
+    max-width: 608px;
+
+}
+
+.paddingAbout {
+    padding: 160px 0;
+}
+.paddingCont{
+    padding: 160px 10px; 
+}
 
 .textBlock {
     width: 50%;
     max-width: 598px;
     height: calc(100vw * 0.48);
     max-height: 598px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
+}
+
+.textBlock p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #79799B;
 }
 
 .imgBlock img {
@@ -56,12 +75,14 @@
 
 }
 
+
 .reachGlobalCont {
     background-image: url(../img/about/wallpaperflare.com_wallpaper.jpg);
     background-size: 100% 100%;
     height: calc(100vw * 0.29);
     max-height: 424px;
 }
+
 .reachScool {
     /* background-color: aqua; */
     width: 25%;
@@ -91,6 +112,98 @@
     color: #FFFFFF;
 }
 
+.contBtnH3 h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #FFFFFF;
+}
+
+.contBtnH3 {
+    background-image: url(../img/about/wallpaperflare.com_wallpaper.jpg);
+    background-size: 100% 100%;
+    height: calc(100vw * 0.35);
+    max-height: 504px;
+    min-height: 200px;
+    justify-content: space-evenly;
+}
+
+
+
+/*? About Video Block */
+.aboutVideoBlock {
+    padding: 160px 0;
+}
+
+.abtTextCont {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rightText,
+.leftText {
+    width: 50%;
+    align-items: flex-start;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.rightText {
+    width: calc(50% - 10px);
+    padding-right: 10px;
+}
+
+.rightText h3,
+.leftText h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #222F5D;
+    margin: 40px 0;
+
+}
+
+.rightText p,
+.leftText p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 556px;
+    color: #79799B;
+}
+
+.historyAbout {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+    color: #222F5D;
+}
+
+@media (max-width: 1440px) {
+    .aboutVideoBlock {
+        padding: 10vw 0;
+    }
+
+    .paddingAbout {
+        padding: 10vw 0;
+    }
+
+    .rightText h3,
+    .leftText h3 {
+
+        margin: 2.5vw 0;
+
+
+    }
+    .paddingCont{
+        padding: 10vw 10px; 
+    }
+}
 
 
 
@@ -99,11 +212,14 @@
 @media (max-width: 1050px) {
     .insideContBlock {
         justify-content: space-between;
-        margin: 40px 0;
+        margin-bottom: 10px;
     }
 
 
     .textBlockP {
+        gap: 10px;
+    }
+    .textBlock {
         gap: 10px;
     }
 
@@ -130,12 +246,12 @@
 
 
 
+
 @media (max-width: 750px) {
     .insideContBlock {
         justify-content: center;
         flex-wrap: wrap;
         gap: 16px;
-        margin: 20px 0;
     }
 
     .imgBlock {
@@ -143,7 +259,17 @@
         justify-content: center;
         padding-right: none;
     }
-
+    .imgBlock img{
+        width: 100%;
+    }
+    .imgBlockReverse {
+        width: 100%;
+        justify-content: center;
+        padding-left: none;
+    }
+    .imgBlockReverse img{
+        width: 100%;
+    }
     .textBlock h2 {
         margin: 20px 0;
         font-size: 28px;
@@ -155,21 +281,73 @@
         line-height: 18px;
 
     }
+    .textBlock p {
+        font-size: 12px;
+        line-height: 18px;
+
+    }
 
     .textBlock {
         width: 100%;
         justify-content: space-around;
+        gap: 10px;
 
     }
-    .reachGlobalCont{
+    .historyAbout {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .reachGlobalCont {
         max-height: none;
         height: max-content;
     }
-    .reachCont1232{
+
+    .reachCont1232 {
         flex-wrap: wrap;
     }
+
     .reachScool {
         width: 50%;
         min-width: 240px;
     }
+
+    .rightText,
+    .leftText {
+        width: 100%;
+        align-items: center;
+        min-width: 280px;
+        padding: 0;
+    }
+
+    .abtTextCont {
+        justify-content: center;
+    }
+
+    .rightText h3,
+    .leftText h3 {
+        font-size: 36px;
+
+    }
+
+    .rightText p,
+    .leftText p {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 556px;
+        color: #79799B;
+    }
+
+    .contBtnH3 h3 {
+        font-size: 6vw;
+    }
+
+    .sizeBtn {
+        margin: 0;
+        width: 218px;
+        height: 54px;
+    }
+
 }

@@ -114,7 +114,12 @@ header .active {
 	margin-bottom: 5%;
 
 }
-
+/* about btn */
+.sizeBtn {
+    margin: 0;
+    width: 228px;
+    height: 64px;
+}
 
 .redButtonHug:hover {
 	background: #ffd6e3;
