@@ -7,6 +7,3 @@ const openClose = () => {
 menu.addEventListener('click' = () => {
     openClose()
 })
-menu.addEventListener('touchstart', ()=>{
-   openClose()
-})
