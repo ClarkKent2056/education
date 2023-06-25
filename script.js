@@ -1,11 +1,12 @@
 const menu = document.querySelector('.menu')
 const menuLink = document.querySelector('.navheader')
-
-menu.addEventListener('click' = () => {
+const openClose = () => {
     menu.classList.toggle('open')
     menuLink.classList.toggle('close')
+}
+menu.addEventListener('click' = () => {
+    openClose()
 })
 menu.addEventListener('touchstart', ()=>{
-    menu.classList.toggle('open')
-    menuLink.classList.toggle('close')
+   openClose()
 })
