@@ -5,7 +5,7 @@ menu.onclick = () => {
     menu.classList.toggle('open')
     menuLink.classList.toggle('close')
 }
-menu.addEventListener('touch', ()=>{
+menu.addEventListener('touchstart', ()=>{
     menu.classList.toggle('open')
     menuLink.classList.toggle('close')
 })
