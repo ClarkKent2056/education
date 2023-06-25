@@ -182,6 +182,7 @@ header .active {
 	}
 	.navheader.close, .navheader.close a{
 		display: none;
+
 	}
     .menu {
 		position: absolute;
