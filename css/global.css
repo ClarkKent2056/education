@@ -284,7 +284,7 @@ header .active {
 	.navheader {
 		position: absolute;
 		transition: all 0.4s;
-		top: 36px;
+		top: 18px;
 		padding: 10px 50px 10px 20px;
 		border-radius: 5px;
 		right: 10px;
