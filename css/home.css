@@ -608,6 +608,13 @@ h3 {
 }
 
 @media (max-width: 750px) {
+  .teachers{
+    justify-content: center;
+    gap: 10px;
+  }
+  .mainbox1 {
+    margin-bottom: 0;
+  }
   .afterheader {
     padding-top: 80px;
     background-image: url(../img/home/bg.jpg);
