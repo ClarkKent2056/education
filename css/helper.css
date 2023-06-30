@@ -16,12 +16,6 @@
 }
 /* size */
 
-
-
-
-
-/* ----------- */
-
 /* width */
 .globalLimitWidth {
 	width: 100%;
@@ -30,9 +24,12 @@
  }
  .max1232 {
 	 max-width: 1252px;
-	 width: 98.4%;
-	 /* padding: 0 20px; */
+	 width: calc(100% - 20px);
+	 
  }
+ .main {
+	padding: 0 10px;
+}
  /* w */
  .w100 {
 	 width: 100%;
@@ -85,7 +82,6 @@
   height: 64px;
   border: none;
   color: #fff;
-  margin: 27px 0 0 0;
   transition: all 0.3s;
   cursor: pointer;
   font-family: 'Open Sans';
@@ -104,10 +100,7 @@
   font-size: 16px;
   color: #ff0a54;
 }
-.textshadow {
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
-    border-radius: 5px;
-}
+
 .margin0 {
 	margin: 0 auto;
 }
