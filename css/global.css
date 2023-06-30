@@ -307,9 +307,9 @@ header .active {
     .menu {
 		position: absolute;
 		right: 16px;
-		top: 21px;
+		top: 24px;
 		width: 40px;
-		height: 38px;
+		height: 32px;
 		cursor: pointer;
 		z-index: 10;
 	}
@@ -329,13 +329,13 @@ header .active {
 		top: 0;
 	}
 	.menu .line:nth-child(2) {
-		top: 17px;
+		top: calc(50% - 2px);
 	}
 	.menu .line:nth-child(3) {
-		top: 17px;
+		top: calc(50% - 2px);
 	}
 	.menu .line:nth-child(4) {
-		top: 34px;
+		top: calc(100% - 4px);
 	}
 	
 	
