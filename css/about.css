@@ -262,6 +262,9 @@
 
 
 @media (max-width: 750px) {
+    .top_menu{
+        background-image: url(../img/classes/classesBGMob.jpg);
+    }
     .insideContBlock {
         justify-content: center;
         flex-wrap: wrap;

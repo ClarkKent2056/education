@@ -52,7 +52,7 @@
 .linkSocialMedia {
     width: 152px;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 }
 
 .linkRingSocial {
@@ -84,10 +84,13 @@
         align-items: center;
         width: calc(100% - 20px);
         max-width: 750px;
-        height: 100%;
+        max-height: none;
+        height: auto;
     }
     .aboutTeacher {
-        margin: 40px 0;
+        margin: 20px 0;
+
+        max-height: none;
     }
     .aboutTeacherBlock {
         margin-top: 0;
@@ -114,4 +117,9 @@
     .blockAbout p:nth-of-type(2){
         margin-bottom: 16px;
     }
+}
+@media (max-width: 750px){
+  .top_menu{
+    background-image: url(../img/teachers/topMenuBGMob.png);
+  }
 }

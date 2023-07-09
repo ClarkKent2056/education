@@ -88,6 +88,9 @@
 
 
 @media (max-width: 750px) {
+    .top_menu{
+        background-image: url(../img/classes/classesBGMob.jpg);
+    }
     .ScheduleHour {
         width: 32%;
     }

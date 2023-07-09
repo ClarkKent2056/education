@@ -284,13 +284,15 @@ header .active {
 	.navheader {
 		position: absolute;
 		transition: all 0.4s;
-		top: 18px;
-		padding: 10px 50px 10px 20px;
+		top: 10px;
+		margin: 0;
+		width: 140px;
+		padding: 20px 10px;
 		border-radius: 5px;
 		right: 10px;
 		display: flex;
-		margin-left: 16px;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 20px;
 		z-index: 9;
 		background-color: rgba(113, 97, 97, 0.719);
@@ -366,12 +368,13 @@ header .active {
 
 	.top_menu {
 		align-items: flex-end;
+		height: calc(100vw * 0.47);
 	}
 
 	.top_menuCont h2 {
-		font-size: 32px;
-		line-height: 46px;
-		margin-bottom: 14px;
+		font-size: 8.7vw;
+		line-height: 10vw;
+		margin-bottom: 4vw;
 	}
 	.FormBf{
 		width: calc(100% - 10px);
@@ -386,6 +389,7 @@ header .active {
 		margin: 0 0;
 		max-width: 80%;
 	}
+	
 	
 	  
 	  /* .conthead button {
